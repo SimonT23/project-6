@@ -1,0 +1,26 @@
+html, body {
+  background: black;  
+  height: 100%;
+  width: 100%;
+}
+
+li { 
+    color: red;
+}
+
+h1 {
+    color: red;
+    font-size: 56px;
+}
+
+p {
+    color: red;
+}
+
+h2{
+    color: red ;   
+}
+
+video{
+    
+}
