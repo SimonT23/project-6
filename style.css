@@ -1,26 +1,133 @@
-html, body {
-  background: black;  
-  height: 100%;
-  width: 100%;
+#mainContainer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #333;
+    background-image: url("https://i.pinimg.com/originals/06/a8/5b/06a85b703ccc50fcc2214bac56214f48.gif");
 }
 
+div.trans{
+    margin: 30px;
+    background: rgba(0, 0, 0, .5) ;
+}
 li { 
-    color: red;
+    color: white;
 }
 
 h1 {
-    color: red;
+    color: white;
     font-size: 56px;
 }
 
 p {
-    color: red;
+    color: white; 
 }
 
 h2{
-    color: red ;   
+    color: white ;   
 }
 
-video{
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    margin: 0 0 0 20px; /* top right bottom left */
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/77/4e/bd/774ebd39cf6673fa02200f53f19d2d2c.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mainContent {
+    width: 700px;
+/*     border: 1px solid white; */
+    margin: 0 auto 0 auto; /* Top right bottom left */
+    line-height: 30px;
+/*     word-spacing: 5px; */
+    letter-spacing: 5px;
+    
     
 }
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body
