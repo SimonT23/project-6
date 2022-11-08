@@ -25,7 +25,8 @@ p {
 }
 
 h2{
-    color: white ;   
+    color: white ;
+    font-size:50px
 }
 
 
@@ -130,4 +131,25 @@ a {
     text-decoration: none;
 }
 
-body
+
+    
+
+   body{
+  background-color: #1D1E22;
+  cursor: none;
+}
+
+.rounded{
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.pointed{
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%; 
+}                          
+
